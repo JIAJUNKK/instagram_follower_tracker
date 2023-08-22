@@ -4,7 +4,7 @@ Install selenium on terminal if not installed.
     pip install selenium
 
 \
-
+\
 If encounters error such as **_This version of ChromeDriver only supports Chrome version xx_**.
 ### Try running either two of the below:
 #### 1. Installing webdriver-manager

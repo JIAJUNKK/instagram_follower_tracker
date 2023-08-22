@@ -4,6 +4,9 @@ import time
 
 class Check_follower:
     def __init__(self, name, password):
+        self.name = name
+        self.password = password
+
         self.driver = webdriver.Chrome()
         self.driver.get("https://www.instagram.com/")
 
@@ -11,11 +14,6 @@ class Check_follower:
         self.followerUrl = "https://www.instagram.com/"+name+"/followers/"
         self.followingList = []
         self.followerList = []
-
-        self.name = name
-        self.password = password
-
-
 
     def login(self):
         time.sleep(15)
@@ -120,4 +118,3 @@ InstagramBot.check_unfollowing()
 
 writeToFile.writeFollowers(InstagramBot.followerList)
 writeToFile.writeFollowings(InstagramBot.followingList)
-
