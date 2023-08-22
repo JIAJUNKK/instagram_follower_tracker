@@ -7,13 +7,15 @@ class Check_follower:
         self.driver = webdriver.Chrome()
         self.driver.get("https://www.instagram.com/")
 
+        self.name = name
+        self.password = password
+
         self.followingUrl = "https://www.instagram.com/"+name+"/following/"
         self.followerUrl = "https://www.instagram.com/"+name+"/followers/"
         self.followingList = []
         self.followerList = []
 
-        self.name = name
-        self.password = password
+
 
     def login(self):
         time.sleep(15)
