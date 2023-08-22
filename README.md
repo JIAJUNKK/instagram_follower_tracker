@@ -1,5 +1,5 @@
 # Checking who don't follow back you on Instagram
-Install selenium on terminal if not installed before
+Install selenium on terminal if not installed. 
 
     pip install selenium
 
