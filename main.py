@@ -107,7 +107,7 @@ class File:
         self.file.close()
 
 
-InstagramBot = Check_follower("jiajunkk", "kongjiajun123")
+InstagramBot = Check_follower("YourInstagramUserName", "YourInstagramUserPassword")
 writeToFile = File()
 
 
@@ -119,4 +119,3 @@ InstagramBot.check_unfollowing()
 writeToFile.writeFollowers(InstagramBot.followerList)
 writeToFile.writeFollowings(InstagramBot.followingList)
 
-# brew upgrade chromedriver --cask
