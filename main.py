@@ -12,6 +12,7 @@ class Check_follower:
 
         self.followingUrl = "https://www.instagram.com/"+name+"/following/"
         self.followerUrl = "https://www.instagram.com/"+name+"/followers/"
+        
         self.followingList = []
         self.followerList = []
 
